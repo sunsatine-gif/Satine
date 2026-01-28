@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style>.lw { font-size: 60px; font-family: Arial, Helvetica, sans-serif; }</style>
+            </head>
+            <body>
+                
+
+    <meta charset="UTF-8">
+    <title>My 1st Calculator</title>
+
+
+<center>
+    <h3>🌟My Calculator我的計算機🌟</h3>
+    <h6>Developer; Satine</h6>
+    <hr>
+    <input type="text" id="formula">
+    <button onclick="ann()">Calculate!</button>
+    <p id="answer"></p>
+    </center>
+    
+    
+
+
+
+
+
+                <script>function ann(){
+var formula = document.getElementById("formula").value;
+var result = eval(formula);
+document.getElementById("answer").innerText = result;
+}</script>
+            
+        
+    </body>
